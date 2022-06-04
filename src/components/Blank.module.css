@@ -1,0 +1,17 @@
+.lists{
+    border: 1px solid #2fa5ff77;
+    background-color: rgba(228, 224, 224, 0.562);
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    height: 40px;
+}
+
+@media screen and (max-width: 760px){
+    .lists{
+        width: 100%;
+    }
+}

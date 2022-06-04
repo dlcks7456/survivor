@@ -1,0 +1,54 @@
+.lists{
+    border: 1px solid #0d6efd;
+    color: #0E185F;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+    width: 680px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.lists:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+.href{
+    color: #0E185F;
+}
+.lists .name{
+    font-size:15px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.lists .icon{
+    font-size:30px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.lists .user{
+    font-size:10px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.subject{
+    display: grid;
+    margin-left: 10px;
+    grid-template-columns: 550px 30px 70px;
+}
+
+@media screen and (max-width: 760px){
+    .lists{
+        width: 95%;
+    }
+    .subject{
+        grid-template-columns: 60% 10% 30%;
+    }
+}

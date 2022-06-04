@@ -1,0 +1,39 @@
+.container{
+    padding: 5px;
+    margin : 0 auto;
+    width : 700px;
+}
+
+.subject{
+    display: grid;
+    grid-template-columns: 630px 70px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.name{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.user{
+    font-size: 12px;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 760px){
+    .container{
+        width: 100%;
+    }
+    .subject{
+        grid-template-columns: 80% 20%;
+    }   
+}

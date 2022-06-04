@@ -1,0 +1,23 @@
+.forms{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20%;
+    padding: 10px;
+}
+
+.errmsg{
+    width: 100%;
+    background-color: rgb(252, 156, 156);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 760px){
+    .forms{
+        width: 100%;
+        margin-top: 5%;
+    }
+}
